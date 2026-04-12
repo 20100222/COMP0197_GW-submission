@@ -15,8 +15,7 @@ pip install -r requirements.txt
 ```bash
 python train.py
 ```
-Automatically downloads the [MIT-BIH Arrhythmia Database](https://physionet.org/content/mitdb/1.0.0/) (48 records, 360 Hz)
-as a `mitdb/` folder
+Automatically downloads the [MIT-BIH Arrhythmia Database](https://physionet.org/content/mitdb/1.0.0/) (48 records, 360 Hz) as a `mitdb/` folder.
 Saves the best checkpoint to `checkpoints/best_model.pt` and a loss curve to `results/loss_curves.png`.
 
 ### 3. Evaluate and generate plots
