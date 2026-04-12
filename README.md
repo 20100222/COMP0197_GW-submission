@@ -44,14 +44,7 @@ COMP0197_GW/
 ## Dataset
 
 The `mitdb/` folder contains the [MIT-BIH Arrhythmia Database](https://physionet.org/content/mitdb/1.0.0/) (48 records, 360 Hz).
-It is included in this repository. If it is missing, download it with:
-
-```python
-import wfdb
-wfdb.dl_database('mitdb', dl_dir='mitdb')
-```
-
----
+It is automatically downloaded when train.py is run.
 
 ## Key Design Choices
 
