@@ -48,7 +48,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import torch
 import torch.nn.functional as F
-import scipy.stats as stats
 
 from config import (
     DATA_FOLDER, INPUT_LEN, FORECAST_LEN, STRIDE,
